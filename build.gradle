@@ -52,6 +52,7 @@ dependencies {
     //compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.11'
     //sqlite
     compile group: 'org.xerial', name: 'sqlite-jdbc', version: '3.28.0'
+    compile 'commons-codec:commons-codec:1.15'
     //Gson
     //implementation 'com.google.code.gson:gson:2.8.6'
 

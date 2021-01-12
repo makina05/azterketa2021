@@ -1,5 +1,6 @@
 package ehu.isad;
 
+import ehu.isad.controllers.SampleController;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -16,11 +17,11 @@ public class Main extends Application {
     FXMLLoader loader = new FXMLLoader(getClass().getResource("/sample.fxml"));
     Parent root = (Parent) loader.load();
 
-    Controller controller = loader.getController();
+    SampleController controller = loader.getController();
     //controller.setMainApp(this);
 
     primaryStage.setTitle("Hello World");
-    primaryStage.setScene(new Scene(root, 300, 275));
+    primaryStage.setScene(new Scene(root, 600, 400));
     primaryStage.show();
   }
 
