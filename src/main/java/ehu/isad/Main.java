@@ -1,6 +1,5 @@
 package ehu.isad;
 
-import ehu.isad.controllers.Controller;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
